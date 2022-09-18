@@ -53,3 +53,31 @@ body{
     line-height: 16px;
     padding-top: 10px;
 }
+.my-links{
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+    position: absolute;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.my-links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 84px;
+    padding-top: 34px;
+    padding-right: 229px;
+}
+.my-links ul li{
+    padding-top: 25px;
+}
+.my-links ul li span img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 50px;
+}
